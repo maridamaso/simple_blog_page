@@ -1,0 +1,156 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        background-color: rgb(248, 248, 248);
+    }
+    aside{
+        display: flex;
+        position: fixed;
+        width: 235px;
+        float: left;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        background-color: white;
+        box-shadow: 1.5px 1px 4px rgb(228, 228, 228);
+        padding-left: 2.3vw;
+        padding-right: 2.3vw;
+        padding-top: 3.6vw;
+    }
+    aside #perfil{
+        padding-top: 2.5px;
+        padding-left: 2.5px;
+        padding-right: 2.8px;
+        border: 0.1vw solid pink;
+        border-radius: 30vw;
+        background-color: pink;
+    }
+    aside div img{
+        border-radius: 30vw;
+        border: 0.3vw solid rgb(255, 222, 228);
+        width: 110px;
+        height: 110px;
+    }
+    aside h1{
+        font-size: 18px;
+        padding-top: 0.5vw;
+        margin-bottom: -0.6vw;
+    }
+    aside p{
+        color: #808080;
+        margin-bottom: 3vw;
+    }
+    .botoes a{
+        text-decoration: none;
+        color: grey;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        background-color:  rgb(243, 243, 243);
+        align-items: flex-end;
+        padding-right: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 80px;
+        margin-bottom: 0.5vw;
+        border-radius: 5vw;
+    }
+    .botoes a:hover{
+        color: white;
+        background-color: pink;
+        box-shadow: 0px 0.1vw 2px rgb(228, 228, 228);
+    }
+    main{
+        float: right;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    main .pesquisa{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        width: 570px;
+        border-radius: 1vw;
+        margin-bottom: 5vw;
+        margin-top: 2.5vw;
+        box-shadow: 0.2vw 0.2vw 2px rgb(228, 228, 228);
+        border: 0.1vw solid rgb(228, 228, 228);
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+    }
+    main .pesquisa img#perfil_main{
+        width: 50px;
+        height: 50px;
+        border-radius: 50vw;
+        border: 0.3vw solid pink;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    main .pesquisa img{
+        width: 20px;
+        height: 20px;
+    }
+    main .pesquisa input{
+        border-radius: 5vw;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
+        width: 60%;
+        margin-right: -6%;
+    }
+    main .postagens section{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 570px;
+        border-radius: 1vw;
+        margin-bottom: 5vw;
+        margin-top: 2.5vw;
+        box-shadow: 0.2vw 0.2vw 2px rgb(228, 228, 228);
+        border: 0.1vw solid rgb(228, 228, 228);
+        padding-bottom: 2vw;
+        padding-top: 2vw;
+    }
+    main .postagens .usuario{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+    }
+    main .postagens .usuario img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50vw;
+        border: 0.3vw solid pink;
+        margin-left: 10%;
+        margin-right: 2%;
+    }
+    main .postagens h2{
+        font-size: 18px;
+    }
+    main .corpo{
+        margin-left: 10%;
+        margin-right: 2%;
+    }
+    main .corpo img{
+        width: 440px;
+        height: 440px;
+        border-radius: 1vw;
+    }
+    main .corpo p{
+        color: grey;
+        padding-right: 13%;
+        text-align: justify;
+    }
+    .subir{
+        position: fixed;
+        float: right;
+        padding-top: 45vw;
+        padding-left: 56vw;
+    }
+    .subir a img{
+        width: 30px;
+        height: 30px;
+    }
+
