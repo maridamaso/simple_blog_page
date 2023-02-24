@@ -314,7 +314,7 @@
         height: 30px;
     }
 }
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
     body{
         margin: 0px;
@@ -473,7 +473,7 @@
         height: 30px;
     }
 }
-@media screen and (max-width: 419.9px)
+@media screen and (max-width: 500px)
 {
     body{
         margin: 0px;
