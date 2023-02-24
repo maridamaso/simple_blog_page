@@ -7,29 +7,43 @@
     }
     main{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 5%;
     }
     main img{
         margin-top: 2vw;
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
     }
     main a{
         text-decoration: none;
         background-color: rgb(243, 243, 243);
         color: grey;
-        font-size: 40px;
-        border-radius: 1vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        margin-top: 2vw;
-        transition: 2s;
+        font-size: 20px;
+        border-radius: 2vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     main a:hover{
         background-color: pink;
         color: black;
+    }
+    section#mensagem{
+        width: 25%;
+    }
+    section h1{
+        font-size: 70px;
+        margin-bottom: -1vw;
+    }
+    section p{
+        font-size: 30px;
+    }
+    section#imagem{
+        margin-left: -20%;
     }
 }
 @media screen and (max-width: 419px){
@@ -38,31 +52,45 @@
         margin: 0px;
         border: 0px;
         padding: 0px;
+        margin: 20px;
     }
     main{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 50%;
     }
     main img{
-        margin-top: 50%;
-        width: 400px;
-        height: 400px;
+        margin-top: 2vw;
+        width: 200px;
+        height: 200px;
     }
     main a{
+        display: block;
+        width: 100%;
         text-decoration: none;
         background-color: rgb(243, 243, 243);
         color: grey;
-        font-size: 40px;
-        border-radius: 1vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-        margin-top: 2vw;
-        transition: 2s;
+        font-size: 20px;
+        border-radius: 2vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     main a:hover{
         background-color: pink;
         color: black;
+    }
+    section#mensagem{
+        width: 50%;
+    }
+    section h1{
+        font-size: 70px;
+        margin-bottom: -1vw;
+    }
+    section p{
+        font-size: 30px;
     }
 }
