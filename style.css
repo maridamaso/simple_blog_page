@@ -147,8 +147,8 @@
     .subir{
             position: fixed;
             float: right;
-            padding-top: 45vw;
-            padding-left: 56vw;
+            right: 0%;
+            bottom: 0%;
     }
     .subir a img{
         width: 30px;
