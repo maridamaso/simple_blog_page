@@ -10,3 +10,5 @@
 <img src="Imagens/pag1.PNG">
 <img src="Imagens/pag2.PNG">
 <p>For mobile devices</p>
+<img src="Imagens/cell1.jpeg">
+<img src="Imagens/cell2.jpeg">
