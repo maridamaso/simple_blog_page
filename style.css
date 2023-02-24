@@ -24,13 +24,13 @@
         padding-top: 2.5px;
         padding-left: 2.5px;
         padding-right: 2.8px;
-        border: 0.1vw solid pink;
+        border: 0.1vw solid #594545;
         border-radius: 30vw;
-        background-color: pink;
+        background-color: #594545;
     }
     aside div img{
         border-radius: 30vw;
-        border: 0.3vw solid rgb(255, 222, 228);
+        border: 0.3vw solid #815B5B;
         width: 110px;
         height: 110px;
     }
@@ -60,7 +60,7 @@
     }
     .botoes a:hover{
         color: white;
-        background-color: pink;
+        background-color: #594545;
         box-shadow: 0px 0.1vw 2px rgb(228, 228, 228);
     }
     main{
@@ -86,7 +86,7 @@
         width: 50px;
         height: 50px;
         border-radius: 50vw;
-        border: 0.3vw solid pink;
+        border: 0.3vw solid #594545;
         margin-left: 10%;
         margin-right: 5%;
     }
@@ -123,9 +123,16 @@
         width: 50px;
         height: 50px;
         border-radius: 50vw;
-        border: 0.3vw solid pink;
+        border: 0.3vw solid #594545;
         margin-left: 10%;
         margin-right: 2%;
+    }
+    main .postagens .usuario img#pontinhos{
+        width: 20px;
+        height: 20px;
+        border: 0px solid;
+        margin-top: 2%;
+        margin-left: 50%;
     }
     main .postagens h2{
         font-size: 18px;
@@ -490,8 +497,8 @@
         padding-bottom: 5vw;
     }
     aside #perfil{
-        background-color: pink;
-        border: 1px solid pink;
+        background-color: #594545;
+        border: 1px solid #594545;
         border-radius: 30vw;
         padding-top: 0.4vw;
         padding-left: 0.4vw;
@@ -502,7 +509,7 @@
         width: 100px;
         height: 100px;
         border-radius: 30vw;
-        border: 4px solid rgb(255, 222, 228);
+        border: 4px solid #815B5B;
     }
     aside h1{
         font-size: 15px;
@@ -524,7 +531,7 @@
     }
     aside .botoes a:hover{
         color: white;
-        background-color: pink;
+        background-color: #815B5B;
     }
     main{
         margin-top: 5vw;
@@ -549,7 +556,7 @@
         width: 40px;
         height: 40px;
         border-radius: 30vw;
-        border: 4px solid rgb(255, 222, 228);
+        border: 4px solid #594545;
         margin-right: 15px;
     }
     main .pesquisa input{
@@ -582,11 +589,18 @@
         width: 60px;
         height: 60px;
         border-radius: 30vw;
-        border: 4px solid rgb(255, 222, 228);
+        border: 4px solid #594545;
         margin-right: 2px;
     }
     main .postagens section .usuario h2{
         font-size: 11px;
+    }
+    main .postagens .usuario img#pontinhos{
+        width: 15px;
+        height: 15px;
+        border: 0px solid;
+        margin-top: 2%;
+        margin-left: 30%;
     }
     main .postagens section .corpo{
         margin-left: 5vw;
