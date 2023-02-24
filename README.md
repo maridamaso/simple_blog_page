@@ -6,5 +6,5 @@
 <h2>ฅ՞•ﻌ•՞ฅ Responsiveness</h2>
 <p>I used responsiveness for the web page to work on mobile devices and computers. I'm starting to use responsiveness now so it still doesn't work 100%.</p>
 <h2>(˵ •̀ ᴗ - ˵ ) ✧Project Images</h2>
-![pag1](https://user-images.githubusercontent.com/101846310/221321903-d7b20dbd-b2fb-419f-8b9e-43927c4ca4de.PNG)
-![pag2](https://user-images.githubusercontent.com/101846310/221321913-898b00f3-6383-4288-b6bf-8fc377d49c7a.PNG)
+<img src="Imagens/pag1.png">
+<img src="Imagens/pag2.png">
