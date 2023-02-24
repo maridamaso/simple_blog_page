@@ -241,7 +241,7 @@
         width: 60%;
         margin-right: -8%;
     }
-    .pesquisa #lupa{
+    .pesquisa img#lupa{
         width: 18px;
         height: 18px;
     }
@@ -290,7 +290,7 @@
     .subir{
         position: fixed;
         right: 10px;
-        top: 550px;
+        top: 92%;
     }
     .subir img{
         width: 40px;
