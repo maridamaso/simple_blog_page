@@ -241,9 +241,9 @@
         width: 60%;
         margin-right: -8%;
     }
-    .pesquisa img#lupa{
-        width: 18px;
-        height: 18px;
+    .pesquisa #lupa{
+        width: 4vw;
+        height: 4vw;
     }
     main .postagens section{
         display: flex;
