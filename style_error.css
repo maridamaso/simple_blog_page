@@ -1,6 +1,6 @@
 @media screen and (min-width: 420px){
     body{
-        background-color: antiquewhite;
+        background-color: white;
         margin: 0px;
         border: 0px;
         padding: 0px;
@@ -18,23 +18,23 @@
     }
     main a{
         text-decoration: none;
-        background-color: #eda751;
-        color: black;
+        background-color: rgb(243, 243, 243);
+        color: grey;
         font-size: 40px;
-        border-radius: 3vw;
+        border-radius: 1vw;
         padding-left: 2vw;
         padding-right: 2vw;
         margin-top: 2vw;
-        border: 0.4vw solid black;
         transition: 2s;
     }
     main a:hover{
-        background-color: #fcd690;
+        background-color: pink;
+        color: black;
     }
 }
 @media screen and (max-width: 419px){
     body{
-        background-color: antiquewhite;
+        background-color: white;
         margin: 0px;
         border: 0px;
         padding: 0px;
@@ -52,17 +52,17 @@
     }
     main a{
         text-decoration: none;
-        background-color: #eda751;
-        color: black;
+        background-color: rgb(243, 243, 243);
+        color: grey;
         font-size: 40px;
-        border-radius: 3vw;
+        border-radius: 1vw;
         padding-left: 2vw;
         padding-right: 2vw;
-        margin-top: 10vw;
-        border: 0.4vw solid black;
+        margin-top: 2vw;
         transition: 2s;
     }
     main a:hover{
-        background-color: #fcd690;
+        background-color: pink;
+        color: black;
     }
 }
