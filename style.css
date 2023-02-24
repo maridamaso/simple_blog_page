@@ -215,7 +215,7 @@
         margin-left: 3vw;
         margin-right: 3vw;
     }
-    .pesquisa{
+    main .pesquisa{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -227,21 +227,21 @@
         padding-top: 4vw;
         padding-bottom: 4vw;
     }
-    .pesquisa #perfil_main{
+    main .pesquisa #perfil_main{
         width: 40px;
         height: 40px;
         border-radius: 30vw;
         border: 4px solid rgb(255, 222, 228);
         margin-right: 15px;
     }
-    .pesquisa input{
+    main .pesquisa input{
         border-radius: 5vw;
         padding-bottom: 0.5vw;
         padding-top: 0.5vw;
         width: 60%;
         margin-right: -8%;
     }
-    .pesquisa #lupa{
+    main .pesquisa #lupa{
         width: 4vw;
         height: 4vw;
     }
